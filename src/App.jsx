@@ -66,6 +66,7 @@ const App = () => {
   return (
     <div className="container">
       <div className="category-buttons">
+        <h3 style={{textAlign:"center"}}>CATEGORIES</h3>
         <button onClick={() => handleCategoryData("electronics")}>Electronics</button>
         <button onClick={() => handleCategoryData("jewelery")}>Jewelery</button>
         <button onClick={() => handleCategoryData("men's clothing")}>Men's clothing</button>
